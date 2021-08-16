@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import './index.less'
 import { bool, func } from 'prop-types';
 
 function Checkbox () {
   return (
-    <view>
+    <view className="checkbox__box">
       <image></image>
     </view>
   )
