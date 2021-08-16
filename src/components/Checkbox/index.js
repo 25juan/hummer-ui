@@ -1,12 +1,16 @@
 import React, { useState } from 'react';
-import './index.less'
 import { bool, func } from 'prop-types';
+import View from '../View';
+import Text from "../Text";
+import Image from "../Image";
+import './index.less'
 
 function Checkbox () {
   return (
-    <view className="checkbox__box">
-      <image></image>
-    </view>
+    <View className="checkbox__box">
+      <Image/>
+      <Text>hello world</Text>
+    </View>
   )
 }
 Checkbox.propTypes = {
