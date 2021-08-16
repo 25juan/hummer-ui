@@ -1,0 +1,27 @@
+{
+  "name": "hummer-ui",
+  "version": "1.0.0",
+  "description": "hummer-ui是一套高性能高可用的前端UI框架，基于滴滴开源的Hummer库开发。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25juan/hummer-ui.git"
+  },
+  "keywords": [
+    "hummer",
+    "hummer-ui"
+  ],
+  "author": "25juan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/25juan/hummer-ui/issues"
+  },
+  "homepage": "https://github.com/25juan/hummer-ui#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.2"
+  }
+}
